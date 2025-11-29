@@ -17,15 +17,21 @@ yalong_eece5644_hw4/
 ```
 
 ## Requirements
-**TODO**
+- numpy
+- matplotlib
+- scikit-learn
+- Pillow
+- requests
+
+All packages are pre-installed in Google Colab.
 
 ## Implementation Details
 
 ### Question 1:
-**TODO**
+SVM and MLP classifiers for overlapping concentric disk data (r=2, r=4, σ=1). K-fold cross-validation selects optimal hyperparameters (SVM: gamma/C, MLP: hidden neurons). Training: 1000 samples, Testing: 10000 samples.
 
 ### Question 2:
-**TODO**
+GMM-based image segmentation using 5D feature vectors [row, col, R, G, B]. K-fold cross-validation selects optimal components (K=2-20). Segments a Berkeley dataset image using maximum likelihood estimation and MAP assignment.
 
 ## Documentation
 Complete analysis, mathematical derivations, results, and discussion are available in `yalong_eece5644_hw4.pdf`.
